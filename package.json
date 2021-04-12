@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node bot.js",
-    "build": "now",
+    "build": "vercel-build",
     "dev": "npm run build & npm run start"
   },
   "engines": {
-    "node": "14.15.4"
+    "node": "14"
   },
   "author": "",
   "license": "ISC",
