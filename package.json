@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bot.js",
     "build": "vercel",
-    "dev": "npm run start & npm run buld"
+    "dev": "npm run start & npm run build"
   },
   "engines": {
     "node": "14.15.4"
