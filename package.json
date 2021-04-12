@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "build": "vercel",
+    "dev": "npm run start & npm run buld"
   },
   "engines": {
     "node": "14.15.4"
