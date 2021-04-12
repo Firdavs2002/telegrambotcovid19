@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node bot.js",
     "build": "now",
-    "dev": "npm run start & npm run build"
+    "dev": "npm run build & npm run start"
   },
   "engines": {
     "node": "14.15.4"
