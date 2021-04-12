@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node bot.js",
-    "build": "vercel",
+    "build": "now",
     "dev": "npm run start & npm run build"
   },
   "engines": {
